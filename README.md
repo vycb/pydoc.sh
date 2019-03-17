@@ -12,7 +12,7 @@ Usage:
              Example: pydoc.sh k string  
  g - grep documentation's file archive and content of toc.csv. Example: pydoc.sh g string  
  p - get read a page from documentation. Example: pydoc.sh p string  
- b - make a backup a documentation. Example: pydoc.sh b  
+ b - backup a documentation. Example: pydoc.sh b  
 
 
 ### Instalation:  

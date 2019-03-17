@@ -2,7 +2,7 @@
 
 Bash based python documentation viewer that converted from chm to read in terminal.  
 Current python documentation version is 3.6.8  
-It dependts only on: gawk/mawk, elinks, less and tar gz  
+It depends only on: gawk/mawk, elinks, less and tar gz  
 
 ## Usage:  
 pydoc.sh -h  

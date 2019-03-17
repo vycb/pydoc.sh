@@ -165,6 +165,11 @@ elif [ "$1" = t ]; then
 	thesaurus "$1" "$2" "$3"
 
 elif [ "$1"  = p ] || ( [ "$1"  = k ] && [ "$2"  = p ] ); then
+#{{{
+:<<HELP
+ p - get read a page from documentation. Example: pydoc.sh p string
+HELP
+#}}}
 	debug '"$1"  = p'
 	if [ "$1"  = k ] ; then
 	 	shift
@@ -403,7 +408,7 @@ elif [ "$1" = diff ]; then
 elif [ "$1" = b ]; then
 #{{{#{{{
 :<<HELP
- b - make a backup of dictionary. Example: pydoc.sh b
+ b - make a backup a dictionary. Example: pydoc.sh b
 HELP
 #}}}
 	suf=`date +"%Y%m%d%H%M%S"`

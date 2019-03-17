@@ -6,7 +6,7 @@ It depends only on: gawk/mawk, elinks, less and tar gz
 
 ## Usage:  
 pydoc.sh -h  
-Usage:  
+Usage: pydoc.sh [pattern-search][p][k][g][b] search-term 
  pattern - to search the documentation. Example: pydoc.sh string  
  k pattern - or search by keywords in the hhk file of the documentation.  
              Example: pydoc.sh k string  

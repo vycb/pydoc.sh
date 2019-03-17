@@ -8,7 +8,7 @@ then #{{{
   sed -nE '/^:<<HELP$/,/^HELP$/{/HELP$/d; p}' "$0"  #/HELP$/d
  	exit 0;
 :<<HELP
-Usage:
+Usage: pydoc.sh [pattern-search][p][k][g][b] search-term
 HELP
 	exit 0
 fi

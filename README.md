@@ -10,7 +10,7 @@ Usage:
  pattern - to search the documentation. Example: pydoc.sh string  
  k pattern - or search by keywords in the hhk file of the documentation.  
              Example: pydoc.sh k string  
- g - grep documentation's file archive and content of toc.csv. Example: pydoc.sh g string
+ g - grep documentation's file archive and content of toc.csv. Example: pydoc.sh g string  
  b - make a backup of dictionary. Example: pydoc.sh b  
 
 

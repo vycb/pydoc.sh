@@ -8,7 +8,7 @@ It depends only on: gawk/mawk, elinks, less and tar gz
 pydoc.sh -h  
 Usage: pydoc.sh [pattern-search][p][k][g][b] search-term  
  pattern - to search the documentation. Example: pydoc.sh string  
- k pattern - or search by keywords in the hhk file of the documentation.  
+ k - pattern - or search by keywords in the hhk file of the documentation.  
              Example: pydoc.sh k string  
  g - grep documentation's file archive and content of toc.csv. Example: pydoc.sh g string  
  p - get read a page from documentation. Example: pydoc.sh p string  

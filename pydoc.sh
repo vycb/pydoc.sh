@@ -111,7 +111,7 @@ if [[ $# -eq 1 ]] && [ "$1" != b ] && [ "$1" != diff ] || ( [ "$1" = k ] && [ ! 
 #{{{#{{{
 :<<HELP
  pattern - to search the documentation. Example: pydoc.sh string
- k pattern - or search by keywords in the hhk file of the documentation.
+ k - pattern - or search by keywords in the hhk file of the documentation.
              Example: pydoc.sh k string
 HELP
 #}}}

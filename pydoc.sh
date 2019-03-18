@@ -1,6 +1,9 @@
 #! /bin/bash
 #. /home/Progs/bashruntime.sh #for debugging
 debugging=0
+debug(){ #{{{
+return
+} #}}}
 docvers=python368
 if [ $# -eq 0 -o  "$1" = 'h' -o  "$1" = '-h'  -o "$1" = '--help' ]
 then #{{{
